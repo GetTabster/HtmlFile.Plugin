@@ -32,9 +32,9 @@ namespace HtmlFile
             get { return "HTML file support"; }
         }
 
-        public Version Version
+        public TabsterVersion Version
         {
-            get { return new Version("1.0"); }
+            get { return new TabsterVersion("1.0"); }
         }
 
         public Uri Website
