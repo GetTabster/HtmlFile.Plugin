@@ -11,18 +11,18 @@ assembly_info:
 before_build:
 - ps: nuget restore
 build:
-  project: HtmlFile.sln
+  project: HtmlExport.sln
 after_build:
 - ps: >-
     .\Deploy\archive.ps1
 artifacts:
-- path: HtmlFile.zip
+- path: HtmlExport.zip
   name: archive
 deploy:
   - provider: GitHub
     auth_token:
       secure: SD+1NPa8QJ8nAT9A4wsEog2pedpT8KaQebkDVB9mHbVze6nYABjcVzDa/5MXK0ZW
-    artifact: HtmlFile.zip
+    artifact: HtmlExport.zip
     draft: true
     on:
       branch: master

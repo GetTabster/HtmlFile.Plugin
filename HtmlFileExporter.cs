@@ -3,13 +3,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using HtmlFile.Properties;
+using HtmlExport.Properties;
 using Tabster.Data;
 using Tabster.Data.Processing;
 
 #endregion
 
-namespace HtmlFile
+namespace HtmlExport
 {
     public class HtmlFileExporter : ITablatureFileExporter
     {

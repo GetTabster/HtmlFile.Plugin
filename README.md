@@ -1,7 +1,7 @@
-HtmlFile
+HtmlExport
 ====================
 
-[![Build status](https://ci.appveyor.com/api/projects/status/aknnvgpp92c86ysf?svg=true)](https://ci.appveyor.com/project/NateShoffner/tabster-plugin-htmlfile)
+[![Build status](https://ci.appveyor.com/api/projects/status/q2a639cr0p7betrg?svg=true)](https://ci.appveyor.com/project/NateShoffner/tabster-plugin-htmlexport)
 
 Supports exporting to HTML files. 
 
